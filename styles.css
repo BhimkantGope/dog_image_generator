@@ -1,9 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: jost, 'Poppins', sans-serif;
     box-sizing: border-box;
     outline: none;
+    border: none;
 }
 
 body{
@@ -17,11 +18,21 @@ body{
     background: #fff;
     margin: 1rem;
     padding: 30px;
-    width: 90%;
-    max-width: 600px;
+    /* width: 90%; */
+    /* max-width: 600px; */
     border-radius: 10px;
     border: none;
     text-align: center;
+}
+
+img {
+    min-height: 10rem;
+    max-height: 25rem;
+    border-radius: 1rem;
+
+    /* max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px; */
 }
 
 .container button {
@@ -32,10 +43,4 @@ body{
     border: none;
     color: white;
     outline: none;
-}
-
-img {
-    max-width: 90%;
-    max-height: 80%;
-    border-radius: 10px;
 }
